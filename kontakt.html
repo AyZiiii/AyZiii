@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lubie szybke furki</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>SZTUKA ORAZ INNE DOBRA...</h1>
+      <h2>他 妈 的 你 的 屁 股</h2>
+
+      <div id="menu_box">
+        <ul>
+          <a href="index.html"> <li>STRONA GŁÓWNA</li></a>
+          <a href="rzezby.html"><li>RZEŹBY</li></a>
+          <a href="dzwiek.html"><li>MUZYKA</li></a>
+          <a href="kontakt.html"><li>KONTAKT</li></a>
+        </ul>
+      </div>
+    </div>
+    <div id="content_box">
+      <h2>
+        Skontaktuj się ze mną
+      </h2>
+
+      <p>Tutaj można wysłać do mnie wiadomość<br /></p>
+
+      <form method="post" class="form" action="mailto:arek@gmail.com">
+        Imię:
+        <input
+          type="text"
+          name="imie"
+          size="35"
+          maxlength="90"
+          placeholder="Podaj imie:"
+          required
+        /><br />
+        Nazwisko:
+        <input
+          type="text"
+          name="nazwisko"
+          size="35"
+          placeholder="Podaj nazwisko:"
+          maxlength="90"
+          required
+        /><br />
+        Email:
+        <input
+          type="email"
+          name="email"
+          size="35"
+          placeholder="Podaj email:"
+          maxlength="90"
+          required
+        /><br />
+        <br /><br />
+        Wiadomość: <br />
+        <input
+          placeholder="Podaj wiadomosc:"
+          type="text"
+          name="wiadomosc"
+          width="800px"
+          size="100"
+          style="height: 200px"
+          required
+        /><br /><br />
+
+        który nurt najbardziej ci podpada do gustu?<br />
+        <label
+          ><input
+            type="radio"
+            name="gender"
+            value="AUDI"
+            checked
+          />Ekspresjonizm</label
+        >
+
+        <label
+          ><input type="radio" name="gender" value="BMW" /> Impresjonizm</label
+        >
+        <label
+          ><input type="radio" name="gender" value="MERCEDES" /> Futuryzm</label
+        >
+        <label
+          ><input type="radio" name="gender" value="VW" />Abstrakcjonizm</label
+        >
+        <label
+          ><input type="radio" name="gender" value="VW" />Inny nurt..</label
+        >
+        <br /><br />
+        <input type="reset" value="RESET" />
+        <input type="submit" value="WYŚLIJ" />
+      </form>
+    </div>
+  </body>
+</html>

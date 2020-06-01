@@ -1,0 +1,137 @@
+body {
+  background: url("img/bg.jpg")no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  color: white;
+  font-family: "Crimson Text", serif;
+}
+
+h2 {
+  color: white;
+}
+
+#header h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 48px;
+}
+
+#header h2 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+#menu_box ul {
+  display: table;
+  margin: 0 auto;
+}
+
+#menu_box ul li {
+  padding: 5px 25px;
+  margin: 0px 20px 0px 20px;
+  background-color: #ffffff;
+  display: block;
+  float: left;
+  font-weight: bold;
+  color: black;
+}
+
+#content_box {
+  width: 1024px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+#content_box h2,
+p {
+  text-align: center;
+}
+
+.property {
+  width: 30px;
+  background-color: white;
+  color: black;
+}
+.field {
+  width: 90px;
+  background-color: black;
+}
+
+video {
+  display: table;
+  margin: auto;
+}
+
+#galeria img {
+  display: table;
+  margin: auto;
+}
+
+#wykaz_button {
+  justify-content: center;
+  display: block;
+  margin: auto 0px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+#content_box form {
+  margin: auto;
+
+}
+
+#content_box a {
+  margin: auto;
+}
+
+#content_box img {
+  margin: auto;
+  display: block;
+}
+
+#content_box audio {
+  margin: auto;
+  display: inherit;
+}
+
+#galerie_sztuki {
+  float: left;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text],input[type=email]{
+  width: 300px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+}
+
+input[type=submit],input[type=reset]{
+  width: 250px;
+  margin-top: 10px;
+  height: 35px;
+  border: 0;
+  background: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+  border: 1px solid white;
+  color: white;
+  background: 0;
+  transition: all 0.3s;
+}
